@@ -1,39 +1,3 @@
-
- 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@amitrajpurohitpspl 
-pages-themes
-/
-cayman
-Public
- Watch 31 
-Fork 2.5k
- Star 891
-Code
-Issues
-16
-Pull requests
-6
-Actions
-Security
-Insights
- master 
-cayman/_sass/jekyll-theme-cayman.scss
-Go to file
-
-@ogonkov
-ogonkov Use font-display: swap
-Latest commit 9c3e707 on 1 Jul 2020
- History
- 4 contributors
-@benbalter @sjparkinson @gebeto @ogonkov
-378 lines (316 sloc)  6.05 KB
-Raw Blame
-     
 @import "normalize";
 @import "rouge-github";
 @import "variables";
@@ -237,6 +201,10 @@ a {
     max-width: 100%;
   }
 
+ h1{
+  color:#27ae60;
+ }
+ 
   h1,
   h2,
   h3,
